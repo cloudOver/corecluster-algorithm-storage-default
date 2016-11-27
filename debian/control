@@ -1,0 +1,13 @@
+Source: corecluster-algorithm-storage-default
+Section: contrib
+Priority: extra
+Maintainer: Maciej Nabozny <maciej.nabozny@cloudover.io>
+Build-Depends: debhelper (>= 8.0.0), dh-systemd
+Standards-Version: 3.9.4
+Homepage: http://cloudover.org/corecluster/
+
+Package: corecluster-algorithm-storage-default
+Architecture: all
+Depends: corecluster
+Description: Default storage selection algorithm
+  Default algorithm for selecting storages in cluster
