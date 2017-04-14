@@ -10,7 +10,7 @@ def version():
 setup(
   name = 'corecluster-algorithm-storage-default',
   packages = find_packages(exclude=['config', 'config.*']),
-  version = '16.12.01',
+  version = '17.04.01',
   description = 'storage select algorithm for CoreCluster',
   author = 'Maciej Nabozny',
   author_email = 'maciej.nabozny@cloudover.io',
